@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Barcode_Scanner_Demo_Sample" parent="Theme.MaterialComponents.Light.DarkActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#004FEE</item>
+        <item name="colorPrimaryVariant">#0C3993</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#0396DA</item>
+        <item name="colorSecondaryVariant">#015187</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextView.OptionLabel" parent="Widget.AppCompat.TextView">
+        <item name = "android:textColor">@color/option_label</item>
+        <item name="android:textSize">@dimen/option_label_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.SubOptionValue" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/sub_option_value</item>
+        <item name="android:textSize">@dimen/sub_option_label_text_size</item>
+    </style>
+
+    <style name="TextView.SubOptionSpinnerValue" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_marginVertical" tools:targetApi="o">@dimen/spinner_vertical_margin</item>
+        <item name="android:textColor">@color/sub_option_value</item>
+        <item name="android:textSize">@dimen/sub_option_label_text_size</item>
+    </style>
+
+    <style name="Button.AppBase" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name="android:textColor">@drawable/button_text_color</item>
+    </style>
+
+    <style name="Button.Action" parent="Button.AppBase">
+        <item name="android:textSize">@dimen/action_button_text_size</item>
+        <item name="android:layout_height">@dimen/action_button_height</item>
+    </style>
+
+    <style name="Button.Option" parent="Button.AppBase">
+        <item name="android:textSize">@dimen/option_button_text_size</item>
+        <item name="android:layout_height">@dimen/option_button_height</item>
+    </style>
+
+    <style name="Theme.Sample.Main" parent="Theme.Barcode_Scanner_Demo_Sample">
+        <item name="toolbarStyle">@style/MainActionBar</item>
+    </style>
+
+    <style name="MainActionBar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">@color/action_bar_text_color</item>
+    </style>
+
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="theme_tag_barcode_list_item_main_text_style">
+        <item name="android:textColor">@color/color_tag_list_barcode_text</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="theme_tag_barcode_list_item_sub_text_style">
+        <item name="android:textColor">@color/color_tag_list_code_type_text</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="theme_tag_barcode_list_item_extra_text_style">
+        <item name="android:textColor">@color/color_tag_list_count_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

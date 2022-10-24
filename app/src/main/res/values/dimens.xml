@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_padding">10dp</dimen>
+    <dimen name="group_padding">8dp</dimen>
+    <dimen name="item_padding">8dp</dimen>
+    <dimen name="dialog_padding">10dp</dimen>
+
+    <dimen name="discovering_title_height">38dp</dimen>
+    <dimen name="paired_device_weight">1.4</dimen>
+    <dimen name="discovering_device_weight">2</dimen>
+
+    <dimen name="widget_interval_size">8dp</dimen>
+    <dimen name="group_interval_size">10dp</dimen>
+    <dimen name="label_interval_size">3dp</dimen>
+
+    <dimen name="wait_progress_padding">12dp</dimen>
+    <dimen name="wait_progress_width">48dp</dimen>
+    <dimen name="wait_progress_height">48dp</dimen>
+    <dimen name="wait_progress_text_size">16sp</dimen>
+
+    <dimen name="circle_progress_width">76dp</dimen>
+    <dimen name="circle_progress_height">76dp</dimen>
+
+    <dimen name="option_label_weight">1.3</dimen>
+    <dimen name="option_value_weight">2</dimen>
+    <dimen name="option_label_text_size">18sp</dimen>
+    <dimen name="option_value_text_size">18sp</dimen>
+    <dimen name="sub_option_label_text_size">16sp</dimen>
+
+    <dimen name="count_layout_padding">10dp</dimen>
+    <dimen name="control_count_weight">0.35</dimen>
+    <dimen name="control_button_weight">0.65</dimen>
+
+    <dimen name="all_count_text_size">20sp</dimen>
+    <dimen name="count_text_size">50sp</dimen>
+
+    <dimen name="spinner_vertical_margin">7dp</dimen>
+    <dimen name="button_margin">3dp</dimen>
+    <dimen name="action_button_text_size">22sp</dimen>
+    <dimen name="action_button_height">60dp</dimen>
+
+    <dimen name="option_button_text_size">18sp</dimen>
+    <dimen name="option_button_height">50dp</dimen>
+
+    <dimen name="wait_dialog_background_stroke_width">3dp</dimen>
+    <dimen name="wait_dialog_background_corner">10dp</dimen>
+
+    <dimen name="device_item_addr_text_size">14sp</dimen>
+    <dimen name="device_item_text_size">18sp</dimen>
+
+</resources>

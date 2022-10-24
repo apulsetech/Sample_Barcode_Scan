@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/discovery_device"
+        android:icon="@drawable/ic_discovery"
+        android:title="@string/menu_discovery_device"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/reconnect"
+        android:icon="@drawable/ic_reconnect"
+        android:title="@string/menu_reconnect_device"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/disconnect"
+        android:icon="@drawable/ic_disconnect"
+        android:title="@string/menu_disconnect_device"
+        app:showAsAction="always"/>
+
+
+</menu>

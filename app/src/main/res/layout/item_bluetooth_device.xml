@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_padding"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="α711"
+        android:textSize="@dimen/device_item_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/device_item_text_color"
+        />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="00:00:00:00:00:00"
+        android:textSize="@dimen/device_item_addr_text_size"
+        android:textColor="@color/device_item_addr_text_color"
+        />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Barcode Scan Sample</string>
+    <string name="app_discovery_device_name">Discovery Device</string>
+    <string name="version_label">Version :</string>
+    <string name="rf_power_label">RF Power Level :</string>
+    <string name="connection_state_label">Connection State :</string>
+    <string name="connection_state_connected">CONNECTED</string>
+    <string name="connection_state_connecting">CONNECTING</string>
+    <string name="connection_state_disconnected">DISCONNECTED</string>
+    <string name="action_start_discovering">Start Discovery</string>
+    <string name="action_stop_discovering">Stop Discovery</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_symbol">Symbol</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="discovering_devices">Discovering Devices</string>
+    <string name="msg_connect_device">Connecting with device.\nPlease wait a moment.</string>
+    <string name="menu_discovery_device">Discovery Device</string>
+    <string name="menu_reconnect_device">Reconnect Device</string>
+    <string name="menu_disconnect_device">Disconnect Device</string>
+    <string name="barcode_scan_button_text_start_scan">Scan</string>
+    <string name="barcode_scan_button_text_stop_scan">Stop</string>
+    <string name="barcode_scan_button_text_symbology">Symbology</string>
+    <string name="msg_disconnect_device">Disconnecting to device.\nPlease wait a moment.</string>
+</resources>

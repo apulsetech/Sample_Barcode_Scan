@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="light_gray">#DFDDDD</color>
+
+    <color name="action_bar_text_color">#FFFFFFFF</color>
+
+    <color name="option_label">#2196F3</color>
+    <color name="sub_option_label">#153597</color>
+    <color name="sub_option_value">#0D1D77</color>
+
+    <color name="connect_state_disconnect">#818181</color>
+    <color name="connect_state_connected">#1111CF</color>
+    <color name="connect_state_connecting">#EAB108</color>
+
+    <color name="list_view_background">#F0F8FB</color>
+    <color name="list_view_background_stroke">#C7E0EA</color>
+
+    <color name="group_background">#FFFFFFFF</color>
+    <color name="group_background_stroke">#ACB3DD</color>
+
+    <color name="count_layout_background">#A59005</color>
+    <color name="count_layout_background_stroke">#645700</color>
+
+    <color name="all_count_text_color">#37331C</color>
+    <color name="count_text_color">#E4DFC7</color>
+
+    <color name="wait_progress">#ffffffff</color>
+    <color name="wait_progress_transparent">#00ffffff</color>
+
+    <color name="button_background">#8B94C4</color>
+    <color name="button_background_stroke">#525B88</color>
+
+    <color name="button_background_pressed">#2942C1</color>
+    <color name="button_background_pressed_stroke">#1B2C83</color>
+
+    <color name="button_background_disabled">#B6B6B6</color>
+    <color name="button_background_disabled_stroke">#818181</color>
+
+    <color name="button_text_size">#0D1D77</color>
+    <color name="button_text_size_pressed">#B9C1F6</color>
+    <color name="button_text_size_disabled">#4E4E4E</color>
+
+    <color name="tag_item_text_color">#2942C1</color>
+    <color name="tag_item_count_text_color">#0D1D77</color>
+
+    <color name="device_item_text_color">#0D1D77</color>
+    <color name="device_item_addr_text_color">#2942C1</color>
+
+    <color name="item_splite_color">#4F000000</color>
+
+    <color name="circle_progress_start">#0A33C9</color>
+    <color name="circle_progress_end">#F4F7FF</color>
+
+    <color name="wait_progress_text_color">#0D1D77</color>
+    <color name="wait_dialog_background">#FFFFFFFF</color>
+    <color name="wait_dialog_background_stroke">#3074EB</color>
+
+    <color name="dialog_title_text_color">#0D1D77</color>
+
+    <color name="select_mask_background">#1B2C83</color>
+    <color name="select_mask_text_color">#EFF1FF</color>
+
+    <color name="color_button_control_start">@android:color/holo_blue_dark</color>
+    <color name="color_button_control_stop">@android:color/holo_red_dark</color>
+
+
+    <color name="color_list_item_normal">@android:color/transparent</color>
+    <color name="color_list_item_focused">#5ececdcd</color>
+    <color name="color_list_item_pressed">#5edc0202</color>
+
+    <color name="color_tag_list_code_type_text">#99b156</color>
+    <color name="color_tag_list_barcode_text">#000000</color>
+    <color name="color_tag_list_count_text">#b86029</color>
+</resources>

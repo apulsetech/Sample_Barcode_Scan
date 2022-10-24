@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    tools:context=".DiscoveryDeviceActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/layout_dicovering_devices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="@dimen/paired_device_weight">
+
+        <TextView
+            android:id="@+id/paired_device_title"
+            style="@style/TextView.OptionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/discovering_title_height"
+            android:text="@string/paired_devices"
+            android:gravity="center_vertical"
+            app:layout_constraintBottom_toTopOf="@id/paired_devices"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ListView
+            android:id="@+id/paired_devices"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/widget_interval_size"
+            android:background="@drawable/bg_list_view"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/paired_device_title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_dicovering_devices"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/group_interval_size"
+        android:layout_marginBottom="@dimen/group_interval_size"
+        app:layout_constraintBottom_toTopOf="@id/action_discovering"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_paired_devices"
+        app:layout_constraintVertical_weight="@dimen/discovering_device_weight">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_discovering_devices_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/discovering_devices"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ProgressBar
+                android:id="@+id/discovering_progress"
+                android:layout_width="@dimen/discovering_title_height"
+                android:layout_height="@dimen/discovering_title_height"
+                android:layout_marginEnd="@dimen/widget_interval_size"
+                android:indeterminateDrawable="@drawable/circle_progress"
+                android:indeterminateDuration="1000"
+                android:gravity="center_vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/discovering_devices_title"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <TextView
+                android:id="@+id/discovering_devices_title"
+                style="@style/TextView.OptionLabel"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/discovering_title_height"
+                android:gravity="center_vertical"
+                android:text="@string/discovering_devices"
+                app:layout_constraintStart_toEndOf="@+id/discovering_progress"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ListView
+            android:id="@+id/discovering_devices"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/widget_interval_size"
+            android:background="@drawable/bg_list_view"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_discovering_devices_title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/action_discovering"
+        style="@style/Button.Option"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/action_start_discovering"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_dicovering_devices"
+        app:layout_constraintWidth_percent="0.7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
